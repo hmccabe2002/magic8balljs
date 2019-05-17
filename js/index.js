@@ -32,3 +32,13 @@ $(function() {$('.eball').mouseenter(function(){
     });
 
 });
+function myFunction(event) {
+  var x = event.key;
+
+  if (x == "c") { 
+    alert ("Changelog:\n        Magic 8 Ball [1.0.0]\n                CREATED-- 20 answers\n        Magic 8 Ball [1.0.1]\n                ADDED-- 3 new answers");
+  }
+  if (x == "C") {
+	alert("Credits:\n        Developer: HUNTER McCABE")  
+  }
+}
